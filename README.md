@@ -1,0 +1,1 @@
+This script was written by [Claude AI](https://claude.ai/chat).
