@@ -20,7 +20,7 @@ def smpte_to_srt(smpte, frame_rate):
     milliseconds = round(frames / frame_rate * 1000)
 
     # Construct SRT format
-    return f"{hours:02d}:{minutes:02d}:{seconds:02d}.{milliseconds:03d}"
+    return f"{hours:02d}:{minutes:02d}:{seconds:02d},{milliseconds:03d}"
 
 
 def srt_to_smpte(srt, frame_rate):
